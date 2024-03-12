@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-# Usage: ./wide_table.py create NUMBER-OF-COLUMNS > create.sql
-# Usage: ./wide_table.py insert NUMBER-OF-COLUMNS NUMBER-OF-ROWS > insert.sql
+# Usage: ./wide_table.py
 
 import sys
 import random
