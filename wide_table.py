@@ -51,6 +51,7 @@ def filter_query(scan_range_len):
         print(", ".join([f"'{s}'" for s in scan_strings]))
         print(");")
 
+
 def main():
     if len(sys.argv) < 3:
         print(f"Usage: {sys.argv[0]} create NUMBER-OF-COLUMNS > create.sql")
